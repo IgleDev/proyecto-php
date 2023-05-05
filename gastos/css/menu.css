@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: #c8c8c8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: blue;
+}
+
+h1{
+    color: rgb(13, 13, 231);
+    opacity: 0.5;
+    font-size: 28px;
+}
+
+.padre{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.padre .buttons{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons a button{
+    margin: 5%;
+    padding-right: 15%;
+    padding-left: 15%;
+    background-color: aqua;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+a button{
+    text-decoration: none;
+    color: black;
+}
